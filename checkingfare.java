@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RideBooking {
+class Booking {
     int Uber;
     int Auto;
     int Bike;
@@ -29,7 +29,7 @@ class RideBooking {
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        RideBooking r = new RideBooking();
+        Booking r = new Booking();
         System.out.print("Enter Uber Fare: ");
         int uber = sc.nextInt();
         System.out.print("Enter Auto Fare: ");
